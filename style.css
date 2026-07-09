@@ -5,6 +5,10 @@
     font-family: "Inter", sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Container */
 .container {
     max-width: 1200px;
@@ -46,11 +50,6 @@ header nav ul {
     gap: 20px;
     color: #575757;
 }
-
-header nav ul li a {
-    text-decoration: none;
-}
-
 
 /* Banner styles */
 
@@ -216,4 +215,19 @@ header nav ul li a {
 
 .secure-card-main ul {
     color: #d1d0d0;
+}
+
+/* Footer styles */
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0D1B2A;
+    padding: 50px;
+    color: #575757;
+}
+
+footer ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
