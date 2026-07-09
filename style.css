@@ -21,6 +21,15 @@
     border: none;
     cursor: pointer;
 }
+.outline-btn {
+    font-weight: bold;
+    padding: 10px 50px;
+    border-radius: 8px;
+    color: #2563EB;
+    background-color: white;
+    outline: auto;
+    cursor: pointer;
+}
 
 /* Header styles */
 header {
@@ -138,4 +147,73 @@ header nav ul li a {
 .speaker-title {
     font-size: 0.7rem;
     color: #575757;
+}
+
+/* Secure Your Spot styles */
+.secure-parent {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+}
+
+.secure-parent > h2 {
+    font-size: 2.5rem;
+}
+
+.secure-parent > p {
+    font-size: 0.8rem;
+    color: #575757;
+}
+
+.secure-cards-parent {
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.secure-card {
+    border: 1px solid rgb(211, 209, 209);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 6px;
+}
+
+.secure-card-main {
+    background-color: #0D1B2A;
+    color: white;
+}
+
+.secure-card h6 {
+    font-size: 0.8rem;
+    color: #717070;
+}
+
+.secure-card h2 {
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+
+.secure-card p {
+    color: #717070;
+    font-size: 0.6rem;
+}
+
+.secure-card ul {
+    font-size: 0.9rem;
+    padding: 20px;
+    color: #575757;
+}
+
+.secure-card li {
+    padding: 4px;
+}
+
+.secure-card-main ul {
+    color: #d1d0d0;
 }
