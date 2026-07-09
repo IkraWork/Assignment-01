@@ -2,6 +2,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Inter", sans-serif;
 }
 
 /* Buttons */
@@ -35,4 +36,59 @@ header nav ul {
 
 header nav ul li a {
     text-decoration: none;
+}
+
+
+/* Banner styles */
+/* .banner {
+
+} */
+
+.banner-img-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+    filter: brightness(40%);
+}
+
+.overlay {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: white;
+    padding-bottom: 20px 0 10px;
+    box-sizing: border-box;
+}
+
+.overlay-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.overlay h1 {
+    font-size: 5rem;
+    margin-bottom: 10px;
+}
+
+.overlay p {
+    font-size: 1.4rem;
+    max-width: 800px;
+    filter: brightness(90%);
+}
+
+.banner-btn {
+    font-size: 1.4rem;
+    margin-bottom: 0;
+    padding: 14px 40px;
 }
