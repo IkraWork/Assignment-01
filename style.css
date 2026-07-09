@@ -5,6 +5,12 @@
     font-family: "Inter", sans-serif;
 }
 
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
 /* Buttons */
 .common-btn {
     font-weight: bold;
@@ -20,8 +26,6 @@
 header {
     display: flex;
     justify-content: space-between;
-    max-width: 1200px;
-    margin: 20px auto;
     align-items: center;
 }
 
@@ -40,9 +44,6 @@ header nav ul li a {
 
 
 /* Banner styles */
-/* .banner {
-
-} */
 
 .banner-img-container {
     position: relative;
@@ -51,7 +52,7 @@ header nav ul li a {
     align-items: center;
 }
 
-.banner img {
+.banner-img-container img {
     width: 100%;
     display: block;
     filter: brightness(40%);
@@ -90,5 +91,51 @@ header nav ul li a {
 .banner-btn {
     font-size: 1.4rem;
     margin-bottom: 0;
-    padding: 14px 40px;
+    padding: 14px 46px;
+}
+
+/* Meet the speakers styles */
+.speaker-parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.speaker-parent > h2 {
+    padding: 60px 0 20px;
+    font-size: 3rem;
+}
+
+.speaker-card-parent {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.speaker-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(227, 227, 227);
+    border-radius: 6px;
+}
+
+.speaker-card-texts {
+    padding: 24px;
+}
+
+.track-label {
+    color: #2563EB;
+    font-size: 0.6rem;
+    font-weight: bold;
+}
+
+.speaker-name {
+    font-weight: 700;
+    padding: 8px 0;
+}
+
+.speaker-title {
+    font-size: 0.7rem;
+    color: #575757;
 }
