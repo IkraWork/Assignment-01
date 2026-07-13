@@ -172,7 +172,8 @@ header nav ul {
 }
 
 .secure-cards-parent {
-    width: 80%;
+    max-width: 1440px;
+    width: 70%;
     padding-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
