@@ -108,6 +108,7 @@ header nav ul {
 
 /* Meet the speakers styles */
 .speaker-parent {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -154,7 +155,7 @@ header nav ul {
 
 /* Secure Your Spot styles */
 .secure-parent {
-    padding: 100px;
+    padding: 100px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,6 +172,7 @@ header nav ul {
 }
 
 .secure-cards-parent {
+    width: 80%;
     padding-top: 30px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
